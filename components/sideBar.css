@@ -1,0 +1,19 @@
+.side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sideContanier{
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+.text{
+    color: darkgrey;
+    font-size: 14px;
+}
+.sideContaniererror{
+    background-color: red;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,41 @@
+.App {
+ align-items: center;
+}
+
+.header {
+  height: 80px;
+  display: flex;
+  justify-content:center ;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  top: 80px;
+  width: 100%;
+}
+.sidebar {
+  width: 20%;
+  background-color: white;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.map{
+  width: 80%;
+  height: 100vh;
+}
+
+
+.searchBar{
+  width:100%;
+  height:27px;
+  background-color: wheat;
+ 
+}
+
+.input{
+  width: 90%;
+  margin-left: 5px;
+}
+
+

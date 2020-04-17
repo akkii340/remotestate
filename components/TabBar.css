@@ -1,0 +1,51 @@
+.tabContainer {
+    width:100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.tabinner{
+    width:80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.tabs {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.tabselect{
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right:10px;
+    z-index: 100;
+}
+
+.textSelect{
+    background-color: cornflowerblue;
+    border-bottom: 1px solid black;
+}
+.select{
+    width:10%;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.tabClicked{
+    height: 60px;
+    background-color: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
